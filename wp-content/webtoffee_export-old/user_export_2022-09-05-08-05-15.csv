@@ -1,0 +1,8 @@
+﻿ID,user_login,user_pass,user_nicename,user_email,user_url,display_name,first_name,last_name,user_status,roles,nickname,admin_color,show_admin_bar_front,wp_user_level
+1,admin,$P$BYmtk2cii14tr5Nyb4pyZW7krnxxKo0,admin,david.morel@colegioaleman.com,http://127.0.0.1/wordpress,admin,,,0,administrator,admin,fresh,true,10
+8,administrador,$P$BFPDhqYVuhHeHLVNiUSMLO5zXRAQWQ/,administrador,administrador@colegioaleman.com,,administrador,administrador,,0,administrator,administrador,fresh,true,10
+4,pepe,$P$Belh3FKf8.DZq9ovaTrupG5JaLX8ob0,pepe,pepe@pep.com,,pepe,,,0,subscriber,pepe,fresh,true,0
+7,Prueba_Bachiller,$P$BSxFOooHO6PdYPWVWZGvXY/l8okAqZ/,prueba_bachiller,prueba2@prueba.com,,Prueba_Bachiller,,,0,subscriber,Prueba_Bachiller,fresh,false,0
+6,Prueba_Kindergarten,$P$BM.Uo3H61RWtmNUKi58xHNGB6bfS//0,prueba_kindergarten,prueba1@prueba.com,,Prueba_Kindergarten,,,0,subscriber,Prueba_Kindergarten,fresh,false,0
+2,Prueba_Usuario,$P$Bmrn7nZKBopoCUChbgLQW4fzn8K9ou0,prueba_usuario,Prueba_Usuario_2@prueba.com,,Prueba_Usuario,,,0,,Prueba_Usuario,fresh,false,0
+5,Prueba_Usuario_Secundaria,$P$BavL6ZtdAI38EoxkkOgrKjsrHawPxM1,prueba_usuario_secundaria,prueba@prueba.com,,Prueba_Usuario_Secundaria,,,0,subscriber,Prueba_Usuario_Secundaria,fresh,true,0

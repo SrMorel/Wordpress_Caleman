@@ -1,0 +1,684 @@
+0000.001 (0) Opened log file at time: Wed, 15 Feb 2023 20:07:58 +0000 on https://intranet.colegioaleman.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.15 (fpm-fcgi, Linux hosting104 5.15.74-1-pve #1 SMP PVE 5.15.74-1 (Mon, 14 Nov 2022 20:17:15 +0100) x86_64) MySQL: 10.8.7-MariaDB-1:10.8.7+maria~ubu2204-log (max packet size=1073741824) WPLANG: es_ES Server: Apache/2.4.55 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11M | 18M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 11117.1 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.006 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1676470870, seconds_ago=20808)
+0000.007 (0) Set semaphore last lock (fd) time to 2023-02-15 20:07:58
+0000.007 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=26549bc7e472, file_nonce=26549bc7e472 begun at=1676491678 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1676491978) in case this run gets aborted
+0000.011 (0) Checking if we have a zip executable available
+0000.011 (0) Testing: /usr/bin/zip
+0000.013 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.014 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.014 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.015 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.015 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.022 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.023 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.023 (0) Working binary zip found: /usr/bin/zip
+0000.024 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.025 (0) Creation of backups of directories: beginning
+0000.026 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.133 (0) Total entities for the zip file: 623 directories, 3114 files (0 skipped as non-modified), 49.8 MB
+0000.136 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.140 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.142 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.144 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.146 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.148 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.151 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.153 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.154 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.8 MB, 3114 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.291 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: size is now: 6.20 MB
+0001.295 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1100 files added (on-disk size: 6397.4 KB)
+0001.297 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1200 files added (on-disk size: 6397.4 KB)
+0001.299 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1300 files added (on-disk size: 6397.4 KB)
+0001.301 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1400 files added (on-disk size: 6397.4 KB)
+0001.303 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1500 files added (on-disk size: 6397.4 KB)
+0001.305 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1600 files added (on-disk size: 6397.4 KB)
+0001.307 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1700 files added (on-disk size: 6397.4 KB)
+0001.309 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1800 files added (on-disk size: 6397.4 KB)
+0001.311 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 1900 files added (on-disk size: 6397.4 KB)
+0001.313 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2000 files added (on-disk size: 6397.4 KB)
+0001.313 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 3114 files batched, 1001 (2002) added so far); re-opening (prior size: 6397.4 KB)
+0001.990 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: size is now: 10.90 MB
+0001.995 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2100 files added (on-disk size: 11138.5 KB)
+0001.998 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2200 files added (on-disk size: 11138.5 KB)
+0002.000 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2300 files added (on-disk size: 11138.5 KB)
+0002.003 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2400 files added (on-disk size: 11138.5 KB)
+0002.005 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2500 files added (on-disk size: 11138.5 KB)
+0002.008 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2600 files added (on-disk size: 11138.5 KB)
+0002.010 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2700 files added (on-disk size: 11138.5 KB)
+0002.013 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2800 files added (on-disk size: 11138.5 KB)
+0002.015 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 2900 files added (on-disk size: 11138.5 KB)
+0002.018 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 3000 files added (on-disk size: 11138.5 KB)
+0002.019 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 3114 files batched, 1001 (3003) added so far); re-opening (prior size: 11138.5 KB)
+0002.733 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: size is now: 15.40 MB
+0002.737 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.tmp: 3100 files added (on-disk size: 15792.4 KB)
+0002.895 (0) Creating zip file manifest (backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip.list-temp.tmp)
+0002.907 (0) Successfully created zip file manifest (size: 268958)
+0003.130 (0) Created plugins zip (0) - 18884.4 KB in 3.1 s (6087.9 KB/s) (sha1: 1328bbbfc40505ad9b69779175e510817e666ce6, sha256: 1e64489fc305b44fa7eca3043b32737f2dd4ec01afa774a5c8298217c7b8ffc9)
+0003.134 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.135 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3f6467717f83aba75b3bd81e40564b82)
+0003.136 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, wp-includes/Requests/Cookie/Jar.php)
+0003.136 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, wp-includes/Requests/Cookie/Jar.php)
+0003.136 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, wp-includes/Requests/Cookie/Jar.php)
+0003.137 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, wp-includes/Requests/Cookie/Jar.php)
+0003.137 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, wp-includes/Requests/Cookie/Jar.php)
+0003.138 (0) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, wp-includes/Requests/Transport/cURL.php)
+0004.415 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, wp-includes/Requests/Utility/CaseInsensitiveDictionary.php)
+0004.417 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, wp-includes/Requests/Utility/CaseInsensitiveDictionary.php)
+0004.417 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 68, wp-includes/Requests/Utility/CaseInsensitiveDictionary.php)
+0004.417 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 82, wp-includes/Requests/Utility/CaseInsensitiveDictionary.php)
+0004.418 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 91, wp-includes/Requests/Utility/CaseInsensitiveDictionary.php)
+0005.324 (0) Google Drive: quota usage: used=8138.1 MB, total=105164800 MB, available=105156661.9 MB
+0005.325 (0) Google Drive: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip: Attempting to upload to Google Drive (into folder id: 1i61s2TbJTFfzp9I0Z-w8Wv3t69txbvkm)
+0005.982 (0) Googledrive chunked upload: 5.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.7 / 18)
+0006.207 (0) Googledrive chunked upload: 16.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.7 / 18)
+0006.362 (0) Googledrive chunked upload: 38 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.7 / 18)
+0006.666 (0) Googledrive chunked upload: 81.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.7 / 18)
+0008.081 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0008.082 (0) Google Drive: OK: Archive backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip uploaded in 2.76 seconds
+0008.083 (0) Recording as successfully uploaded: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip
+0008.089 (0) Deleting local file: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip: OK
+0008.092 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.109 (0) Total entities for the zip file: 100 directories, 534 files (0 skipped as non-modified), 8.9 MB
+0008.111 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.113 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.115 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.117 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.119 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.491 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.tmp: size is now: 5.30 MB
+0008.497 (0) Creating zip file manifest (backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip.list-temp.tmp)
+0008.499 (0) Successfully created zip file manifest (size: 35194)
+0008.556 (0) Created themes zip (0) - 5401.5 KB in 0.5 s (11670.5 KB/s) (sha1: 55a2f684aab3149dec8dfdbb44c83c25b6ba4b2c, sha256: cbc9eedbfd76b27a539fc7e8911012926cfa57ea5e30b50fb383e7145ecc5c13)
+0008.559 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.560 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3f6467717f83aba75b3bd81e40564b82)
+0008.827 (0) Google Drive: quota usage: used=8156.6 MB, total=105164800 MB, available=105156643.4 MB
+0008.828 (0) Google Drive: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip: Attempting to upload to Google Drive (into folder id: 1i61s2TbJTFfzp9I0Z-w8Wv3t69txbvkm)
+0009.435 (0) Googledrive chunked upload: 19 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.3 / 18)
+0009.540 (0) Googledrive chunked upload: 56.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.3 / 18)
+0010.767 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0010.769 (0) Google Drive: OK: Archive backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip uploaded in 1.94 seconds
+0010.769 (0) Recording as successfully uploaded: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip
+0010.772 (0) Deleting local file: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip: OK
+0010.775 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.775 (0) Looking for candidates to backup in: /home/colegioaleman.com/domains/intranet.colegioaleman.com/public_html/wp-content/uploads
+0010.776 (0) finding files: is_iu_errors.log: adding to list (1)
+0010.776 (0) finding files: 2022: adding to list (2)
+0010.776 (0) finding files: 2023: adding to list (3)
+0010.777 (0) finding files: embedpress: adding to list (4)
+0010.777 (0) finding files: rank-math: adding to list (5)
+0010.777 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.790 (0) Total entities for the zip file: 11 directories, 774 files (0 skipped as non-modified), 264.1 MB
+0010.792 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 774 files batched, 83 (83) added so far); re-opening (prior size: 0 KB)
+0011.085 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: size is now: 24.40 MB
+0011.087 (0) A useful amount of data was added after this amount of zip processing: 0.5 s (normalised: 0.5 s, rate: 46996.3 KB/s)
+0011.088 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.54477596282959, normalised_time=0.54472332823981, max_time=11.086806058884, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0011.089 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 100 files added (on-disk size: 25019.1 KB)
+0011.091 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 200 files added (on-disk size: 25019.1 KB)
+0011.093 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 300 files added (on-disk size: 25019.1 KB)
+0011.095 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 400 files added (on-disk size: 25019.1 KB)
+0011.097 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 500 files added (on-disk size: 25019.1 KB)
+0011.099 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 600 files added (on-disk size: 25019.1 KB)
+0011.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200 MB, 774 files batched, 589 (672) added so far); re-opening (prior size: 25019.1 KB)
+0013.609 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: size is now: 220.50 MB
+0013.611 (0) A useful amount of data was added after this amount of zip processing: 3.1 s (normalised: 3.1 s, rate: 66742.4 KB/s)
+0013.612 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.0689690113068, normalised_time=3.068512557422, max_time=13.611027956009, data points known=1, max_bytes=209715200)
+0013.613 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.tmp: 700 files added (on-disk size: 225750.1 KB)
+0014.589 (0) Creating zip file manifest (backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip.list-temp.tmp)
+0014.591 (0) Successfully created zip file manifest (size: 47490)
+0017.156 (0) Created uploads zip (0) - 263251.7 KB in 6.4 s (41280.4 KB/s) (sha1: 6f6076fb1a7fc548bb16dd33556eb3d98cdacf88, sha256: e884eb3d834474dbb894a8a37ad42132481112f437b71854334dce9eeeda1e6a)
+0017.160 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.160 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3f6467717f83aba75b3bd81e40564b82)
+0017.421 (0) Google Drive: quota usage: used=8161.8 MB, total=105164800 MB, available=105156638.2 MB
+0017.422 (0) Google Drive: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip: Attempting to upload to Google Drive (into folder id: 1i61s2TbJTFfzp9I0Z-w8Wv3t69txbvkm)
+0018.105 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.3 / 18)
+0018.225 (0) Googledrive chunked upload: 1.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.3 / 18)
+0018.645 (0) Googledrive chunked upload: 2.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.3 / 18)
+0018.820 (0) Googledrive chunked upload: 5.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.3 / 18)
+0019.181 (0) Googledrive chunked upload: 12.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 11.3 / 18)
+0019.779 (0) Googledrive chunked upload: 24.5 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 11.3 / 18)
+0021.858 (0) Googledrive chunked upload: 49.4 % uploaded (133169152)
+0023.245 (0) Googledrive chunked upload: 74.3 % uploaded (200278016)
+0024.762 (0) Googledrive chunked upload: 99.2 % uploaded (267386880)
+0026.230 (0) Googledrive chunked upload: 100 % uploaded (267386880)
+0026.231 (0) Google Drive: OK: Archive backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip uploaded in 8.81 seconds
+0026.232 (0) Recording as successfully uploaded: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip
+0026.286 (0) Deleting local file: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip: OK
+0026.289 (0) Beginning backup of other directories found in the content directory (index: 0)
+0026.289 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0026.289 (0) Looking for candidates to backup in: /home/colegioaleman.com/domains/intranet.colegioaleman.com/public_html/wp-content
+0026.290 (0) finding files: backup-migration: skipping: excluded by options (glob)
+0026.290 (0) finding files: upgrade: skipping: excluded by options
+0026.291 (0) finding files: uploads: skipping: this is the uploads directory
+0026.291 (0) finding files: wflogs: adding to list (1)
+0026.291 (0) finding files: languages-old: adding to list (2)
+0026.292 (0) finding files: index.php: adding to list (3)
+0026.292 (0) finding files: plugins-old: adding to list (4)
+0026.292 (0) finding files: index.php-old: adding to list (5)
+0026.293 (0) finding files: plugins: skipping: this is the plugins directory
+0026.293 (0) finding files: webtoffee_iew_log: adding to list (6)
+0026.293 (0) finding files: updraft: skipping: this is the updraft directory
+0026.294 (0) finding files: languages: adding to list (7)
+0026.294 (0) finding files: themes: skipping: this is the themes directory
+0026.294 (0) finding files: webtoffee_iew_log-old: adding to list (8)
+0026.295 (0) finding files: uploads-old: adding to list (9)
+0026.295 (0) finding files: webtoffee_import-old: adding to list (10)
+0026.295 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0026.295 (0) finding files: backup-migration-J2K4zy1FXd: skipping: excluded by options (glob)
+0026.296 (0) finding files: webtoffee_export: adding to list (11)
+0026.296 (0) finding files: themes-old: adding to list (12)
+0026.296 (0) finding files: wflogs-old: adding to list (13)
+0026.297 (0) finding files: webtoffee_export-old: adding to list (14)
+0026.297 (0) finding files: webtoffee_import: adding to list (15)
+0026.305 (0) Total entities for the zip file: 17 directories, 325 files (0 skipped as non-modified), 31.1 MB
+0026.307 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.309 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.311 (0) Zip: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0028.242 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip.tmp: size is now: 9.90 MB
+0028.247 (0) Creating zip file manifest (backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip.list-temp.tmp)
+0028.249 (0) Successfully created zip file manifest (size: 19872)
+0028.351 (0) Created others zip (0) - 10151.9 KB in 2.1 s (4946 KB/s) (sha1: 7c8acac0794add5698d387bfba956d7b157ff49a, sha256: d7d233c79d96fbe52eab9597b58d15fb07def88f613c4ef4198f0edf16adc7ec)
+0028.354 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0028.354 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3f6467717f83aba75b3bd81e40564b82)
+0028.595 (0) Google Drive: quota usage: used=8418.9 MB, total=105164800 MB, available=105156381.1 MB
+0028.596 (0) Google Drive: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip: Attempting to upload to Google Drive (into folder id: 1i61s2TbJTFfzp9I0Z-w8Wv3t69txbvkm)
+0029.127 (0) Googledrive chunked upload: 10.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.3 / 18)
+0029.277 (0) Googledrive chunked upload: 30.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.3 / 18)
+0029.471 (0) Googledrive chunked upload: 70.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.3 / 18)
+0030.780 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0030.782 (0) Google Drive: OK: Archive backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip uploaded in 2.19 seconds
+0030.783 (0) Recording as successfully uploaded: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip
+0030.786 (0) Deleting local file: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip: OK
+0030.790 (0) Saving backup status to database (elements: 8)
+0030.797 (0) Beginning creation of database dump (WordPress DB)
+0030.798 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0030.799 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0030.814 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1226 bytes total)
+0030.815 (0) Binary mysqldump: error (code: 2)
+0030.822 (0) Table wp_options: Total expected rows (via COUNT): 483
+0030.822 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.907 (0) Table wp_options: Rows added in this batch (next record: 38772): 479 (uncompressed bytes in this segment=1810105) in 0.09 seconds
+0030.911 (0) Table wp_options: finishing file(s) (2, 402.8 KB)
+0030.913 (0) Table wp_users: Total expected rows (via COUNT): 907
+0030.926 (0) Table wp_users: Rows added in this batch (next record: 916): 907 (uncompressed bytes in this segment=134250) in 0.01 seconds
+0030.929 (0) Table wp_users: finishing file(s) (2, 26.8 KB)
+0030.940 (0) Table wp_usermeta: Total expected rows (approximate): 12737
+0031.025 (0) Table wp_usermeta: Rows added in this batch (next record: 12910): 12640 (uncompressed bytes in this segment=683579) in 0.10 seconds
+0031.028 (0) Table wp_usermeta: finishing file(s) (2, 114.5 KB)
+0031.032 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0031.032 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0031.035 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0031.037 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0031.038 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1466) in 0.00 seconds
+0031.040 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0031.042 (0) Table wp_links: Total expected rows (via COUNT): 0
+0031.043 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0031.045 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0031.049 (0) Table wp_postmeta: Total expected rows (approximate): 1793
+0031.063 (0) Table wp_postmeta: Rows added in this batch (next record: 3083): 1792 (uncompressed bytes in this segment=238261) in 0.02 seconds
+0031.066 (0) Table wp_postmeta: finishing file(s) (2, 31.7 KB)
+0031.073 (0) Table wp_posts: Total expected rows (via COUNT): 1280
+0031.173 (0) Table wp_posts: Rows added in this batch (next record: 1519): 1280 (uncompressed bytes in this segment=4634536) in 0.11 seconds
+0031.177 (0) Table wp_posts: finishing file(s) (2, 250.9 KB)
+0031.179 (0) Table wp_term_relationships: Total expected rows (approximate): 278
+0031.181 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 278 (uncompressed bytes in this segment=4992) in 0.00 seconds
+0031.184 (0) Table wp_term_relationships: finishing file(s) (2, 1.1 KB)
+0031.187 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 21
+0031.187 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.189 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 26): 21 (uncompressed bytes in this segment=3188) in 0.00 seconds
+0031.191 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.2 KB)
+0031.194 (0) Table wp_termmeta: Total expected rows (via COUNT): 24
+0031.195 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.196 (0) Table wp_termmeta: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1621) in 0.00 seconds
+0031.199 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0031.201 (0) Table wp_terms: Total expected rows (via COUNT): 21
+0031.201 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.202 (0) Table wp_terms: Rows added in this batch (next record: 26): 21 (uncompressed bytes in this segment=1545) in 0.00 seconds
+0031.204 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0031.208 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 1
+0031.208 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.209 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 560): 1 (uncompressed bytes in this segment=1767) in 0.00 seconds
+0031.211 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0031.214 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0031.216 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0031.218 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0031.220 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0031.221 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.222 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 0.00 seconds
+0031.224 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0031.226 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 3
+0031.227 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.228 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1053) in 0.00 seconds
+0031.230 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0031.233 (0) Table wp_cli_cookie_scan: Total expected rows (via COUNT): 0
+0031.234 (0) Table wp_cli_cookie_scan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0031.236 (0) Table wp_cli_cookie_scan: finishing file(s) (2, 0.4 KB)
+0031.238 (0) Table wp_cli_cookie_scan_categories: Total expected rows (via COUNT): 0
+0031.239 (0) Table wp_cli_cookie_scan_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0031.241 (0) Table wp_cli_cookie_scan_categories: finishing file(s) (2, 0.4 KB)
+0031.244 (0) Table wp_cli_cookie_scan_cookies: Total expected rows (via COUNT): 0
+0031.244 (0) Table wp_cli_cookie_scan_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1231) in 0.00 seconds
+0031.246 (0) Table wp_cli_cookie_scan_cookies: finishing file(s) (2, 0.5 KB)
+0031.249 (0) Table wp_cli_cookie_scan_url: Total expected rows (via COUNT): 0
+0031.250 (0) Table wp_cli_cookie_scan_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.00 seconds
+0031.252 (0) Table wp_cli_cookie_scan_url: finishing file(s) (2, 0.3 KB)
+0031.256 (0) Table wp_cli_scripts: Total expected rows (via COUNT): 4
+0031.256 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.258 (0) Table wp_cli_scripts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1278) in 0.00 seconds
+0031.261 (0) Table wp_cli_scripts: finishing file(s) (2, 0.6 KB)
+0031.263 (0) Table wp_pp_group_members: Total expected rows (approximate): 11819
+0031.358 (0) Table wp_pp_group_members: Rows added in this batch (next record: 12000): 11791 (uncompressed bytes in this segment=1222878) in 0.10 seconds
+0031.361 (0) Table wp_pp_group_members: finishing file(s) (2, 28.3 KB)
+0031.364 (0) Table wp_pp_groups: Total expected rows (via COUNT): 15
+0031.364 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.366 (0) Table wp_pp_groups: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1879) in 0.00 seconds
+0031.367 (0) Table wp_pp_groups: finishing file(s) (2, 0.8 KB)
+0031.370 (0) Table wp_ppc_exception_items: Total expected rows (via COUNT): 131
+0031.370 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.372 (0) Table wp_ppc_exception_items: Rows added in this batch (next record: 239): 131 (uncompressed bytes in this segment=4963) in 0.00 seconds
+0031.374 (0) Table wp_ppc_exception_items: finishing file(s) (2, 1.1 KB)
+0031.377 (0) Table wp_ppc_exceptions: Total expected rows (via COUNT): 19
+0031.377 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.379 (0) Table wp_ppc_exceptions: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=2655) in 0.00 seconds
+0031.381 (0) Table wp_ppc_exceptions: finishing file(s) (2, 0.7 KB)
+0031.383 (0) Table wp_ppc_roles: Total expected rows (via COUNT): 0
+0031.384 (0) Table wp_ppc_roles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.00 seconds
+0031.386 (0) Table wp_ppc_roles: finishing file(s) (2, 0.4 KB)
+0031.389 (0) Table wp_ppi_errors: Total expected rows (via COUNT): 0
+0031.389 (0) Table wp_ppi_errors: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0031.391 (0) Table wp_ppi_errors: finishing file(s) (2, 0.4 KB)
+0031.394 (0) Table wp_ppi_imported: Total expected rows (via COUNT): 0
+0031.394 (0) Table wp_ppi_imported: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=844) in 0.00 seconds
+0031.396 (0) Table wp_ppi_imported: finishing file(s) (2, 0.4 KB)
+0031.399 (0) Table wp_ppi_runs: Total expected rows (via COUNT): 0
+0031.399 (0) Table wp_ppi_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.00 seconds
+0031.401 (0) Table wp_ppi_runs: finishing file(s) (2, 0.4 KB)
+0031.404 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 30
+0031.404 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.406 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 45): 30 (uncompressed bytes in this segment=3376) in 0.00 seconds
+0031.408 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 1.1 KB)
+0031.410 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 21
+0031.411 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.412 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 579): 21 (uncompressed bytes in this segment=1096) in 0.00 seconds
+0031.414 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.5 KB)
+0031.416 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0031.418 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0031.419 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0031.422 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0031.423 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0031.424 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0031.426 (0) Table wp_wfconfig: Total expected rows (approximate): 238
+0031.433 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 238 (uncompressed bytes in this segment=86983) in 0.01 seconds
+0031.435 (0) Table wp_wfconfig: finishing file(s) (2, 18.2 KB)
+0031.437 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0031.438 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+0031.440 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.4 KB)
+0031.442 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0031.443 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.00 seconds
+0031.445 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0031.447 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0031.448 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0031.450 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0031.452 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0031.453 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=992) in 0.00 seconds
+0031.455 (0) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+0031.457 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0031.458 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.00 seconds
+0031.460 (0) Table wp_wfhoover: finishing file(s) (2, 0.4 KB)
+0031.462 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0031.463 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.00 seconds
+0031.465 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0031.467 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0031.467 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=495) in 0.00 seconds
+0031.470 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0031.472 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0031.472 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0031.474 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0031.476 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0031.477 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=835) in 0.00 seconds
+0031.479 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0031.481 (0) Table wp_wflogins: Total expected rows (via COUNT): 0
+0031.482 (0) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0031.484 (0) Table wp_wflogins: finishing file(s) (2, 0.4 KB)
+0031.486 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0031.487 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.00 seconds
+0031.489 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0031.491 (0) Table wp_wfls_settings: Total expected rows (approximate): 21
+0031.492 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 21 (uncompressed bytes in this segment=1724) in 0.00 seconds
+0031.494 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0031.496 (0) Table wp_wfnotifications: Total expected rows (approximate): 1
+0031.497 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1338) in 0.00 seconds
+0031.499 (0) Table wp_wfnotifications: finishing file(s) (2, 0.7 KB)
+0031.501 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0031.502 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0031.504 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0031.506 (0) Table wp_wfreversecache: Total expected rows (approximate): 1
+0031.507 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=631) in 0.00 seconds
+0031.509 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0031.511 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0031.512 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.00 seconds
+0031.514 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0031.516 (0) Table wp_wfstatus: Total expected rows (via COUNT): 10
+0031.516 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.518 (0) Table wp_wfstatus: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1679) in 0.00 seconds
+0031.520 (0) Table wp_wfstatus: finishing file(s) (2, 0.8 KB)
+0031.522 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0031.523 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.00 seconds
+0031.525 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0031.527 (0) Table wp_wpfront_ure_login_redirect: Total expected rows (via COUNT): 0
+0031.528 (0) Table wp_wpfront_ure_login_redirect: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=791) in 0.00 seconds
+0031.530 (0) Table wp_wpfront_ure_login_redirect: finishing file(s) (2, 0.4 KB)
+0031.533 (0) Table wp_wpfront_ure_options: Total expected rows (via COUNT): 15
+0031.533 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.535 (0) Table wp_wpfront_ure_options: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1643) in 0.00 seconds
+0031.537 (0) Table wp_wpfront_ure_options: finishing file(s) (2, 0.7 KB)
+0031.540 (0) Table wp_wpfront_ure_post_type: Total expected rows (via COUNT): 0
+0031.541 (0) Table wp_wpfront_ure_post_type: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.00 seconds
+0031.543 (0) Table wp_wpfront_ure_post_type: finishing file(s) (2, 0.4 KB)
+0031.545 (0) Table wp_wpfront_ure_taxonomy: Total expected rows (via COUNT): 0
+0031.546 (0) Table wp_wpfront_ure_taxonomy: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.00 seconds
+0031.549 (0) Table wp_wpfront_ure_taxonomy: finishing file(s) (2, 0.4 KB)
+0031.553 (0) Table wp_wt_iew_action_history: Total expected rows (via COUNT): 17
+0031.553 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.556 (0) Table wp_wt_iew_action_history: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=36441) in 0.00 seconds
+0031.559 (0) Table wp_wt_iew_action_history: finishing file(s) (2, 3.1 KB)
+0031.562 (0) Table wp_wt_iew_mapping_template: Total expected rows (via COUNT): 0
+0031.563 (0) Table wp_wt_iew_mapping_template: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0031.566 (0) Table wp_wt_iew_mapping_template: finishing file(s) (2, 0.3 KB)
+0031.566 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/colegioaleman.com/domains/intranet.colegioaleman.com/public_html/wp-content/updraft/backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0031.567 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_options.table.tmpr38773.gz (1/58/fopen): adding to final database dump
+0031.572 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_options.table.gz (2/58/fopen): adding to final database dump
+0031.572 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_users.table.tmpr917.gz (3/58/fopen): adding to final database dump
+0031.573 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_users.table.gz (4/58/fopen): adding to final database dump
+0031.573 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_usermeta.table.tmpr12911.gz (5/58/fopen): adding to final database dump
+0031.575 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_usermeta.table.gz (6/58/fopen): adding to final database dump
+0031.575 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_commentmeta.table.tmpr0.gz (7/58/fopen): adding to final database dump
+0031.576 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_commentmeta.table.gz (8/58/fopen): adding to final database dump
+0031.576 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_comments.table.tmpr0.gz (9/58/fopen): adding to final database dump
+0031.577 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_comments.table.gz (10/58/fopen): adding to final database dump
+0031.577 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_links.table.tmpr0.gz (11/58/fopen): adding to final database dump
+0031.577 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_links.table.gz (12/58/fopen): adding to final database dump
+0031.578 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_postmeta.table.tmpr3084.gz (13/58/fopen): adding to final database dump
+0031.578 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_postmeta.table.gz (14/58/fopen): adding to final database dump
+0031.579 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_posts.table.tmpr1520.gz (15/58/fopen): adding to final database dump
+0031.582 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_posts.table.gz (16/58/fopen): adding to final database dump
+0031.582 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_term_relationships.table.tmpr100001.gz (17/58/fopen): adding to final database dump
+0031.583 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_term_relationships.table.gz (18/58/fopen): adding to final database dump
+0031.583 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_term_taxonomy.table.tmpr27.gz (19/58/fopen): adding to final database dump
+0031.583 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_term_taxonomy.table.gz (20/58/fopen): adding to final database dump
+0031.584 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_termmeta.table.tmpr25.gz (21/58/fopen): adding to final database dump
+0031.584 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_termmeta.table.gz (22/58/fopen): adding to final database dump
+0031.585 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_terms.table.tmpr27.gz (23/58/fopen): adding to final database dump
+0031.585 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_terms.table.gz (24/58/fopen): adding to final database dump
+0031.585 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_actions.table.tmpr561.gz (25/58/fopen): adding to final database dump
+0031.586 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_actions.table.gz (26/58/fopen): adding to final database dump
+0031.586 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/58/fopen): adding to final database dump
+0031.586 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_claims.table.gz (28/58/fopen): adding to final database dump
+0031.587 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_groups.table.tmpr2.gz (29/58/fopen): adding to final database dump
+0031.587 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_groups.table.gz (30/58/fopen): adding to final database dump
+0031.587 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_logs.table.tmpr4.gz (31/58/fopen): adding to final database dump
+0031.588 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_actionscheduler_logs.table.gz (32/58/fopen): adding to final database dump
+0031.588 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan.table.tmpr0.gz (33/58/fopen): adding to final database dump
+0031.588 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan.table.gz (34/58/fopen): adding to final database dump
+0031.589 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_categories.table.tmpr0.gz (35/58/fopen): adding to final database dump
+0031.589 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_categories.table.gz (36/58/fopen): adding to final database dump
+0031.590 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_cookies.table.tmpr0.gz (37/58/fopen): adding to final database dump
+0031.590 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_cookies.table.gz (38/58/fopen): adding to final database dump
+0031.590 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_url.table.tmpr0.gz (39/58/fopen): adding to final database dump
+0031.591 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_cookie_scan_url.table.gz (40/58/fopen): adding to final database dump
+0031.591 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_scripts.table.tmpr5.gz (41/58/fopen): adding to final database dump
+0031.591 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_cli_scripts.table.gz (42/58/fopen): adding to final database dump
+0031.592 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_pp_group_members.table.tmpr12001.gz (43/58/fopen): adding to final database dump
+0031.592 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_pp_group_members.table.gz (44/58/fopen): adding to final database dump
+0031.593 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_pp_groups.table.tmpr16.gz (45/58/fopen): adding to final database dump
+0031.593 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_pp_groups.table.gz (46/58/fopen): adding to final database dump
+0031.593 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_exception_items.table.tmpr240.gz (47/58/fopen): adding to final database dump
+0031.594 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_exception_items.table.gz (48/58/fopen): adding to final database dump
+0031.594 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_exceptions.table.tmpr20.gz (49/58/fopen): adding to final database dump
+0031.595 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_exceptions.table.gz (50/58/fopen): adding to final database dump
+0031.595 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_roles.table.tmpr0.gz (51/58/fopen): adding to final database dump
+0031.595 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppc_roles.table.gz (52/58/fopen): adding to final database dump
+0031.596 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_errors.table.tmpr0.gz (53/58/fopen): adding to final database dump
+0031.596 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_errors.table.gz (54/58/fopen): adding to final database dump
+0031.597 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_imported.table.tmpr0.gz (55/58/fopen): adding to final database dump
+0031.597 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_imported.table.gz (56/58/fopen): adding to final database dump
+0031.597 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_runs.table.tmpr0.gz (57/58/fopen): adding to final database dump
+0031.598 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_ppi_runs.table.gz (58/58/fopen): adding to final database dump
+0031.598 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_rank_math_internal_links.table.tmpr46.gz (59/58/fopen): adding to final database dump
+0031.598 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_rank_math_internal_links.table.gz (60/58/fopen): adding to final database dump
+0031.599 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_rank_math_internal_meta.table.tmpr580.gz (61/58/fopen): adding to final database dump
+0031.599 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_rank_math_internal_meta.table.gz (62/58/fopen): adding to final database dump
+0031.599 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfblockediplog.table.tmpr1.gz (63/58/fopen): adding to final database dump
+0031.600 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfblockediplog.table.gz (64/58/fopen): adding to final database dump
+0031.600 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfblocks7.table.tmpr0.gz (65/58/fopen): adding to final database dump
+0031.601 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfblocks7.table.gz (66/58/fopen): adding to final database dump
+0031.601 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfconfig.table.tmpr1001.gz (67/58/fopen): adding to final database dump
+0031.601 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfconfig.table.gz (68/58/fopen): adding to final database dump
+0031.602 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfcrawlers.table.tmpr1.gz (69/58/fopen): adding to final database dump
+0031.602 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfcrawlers.table.gz (70/58/fopen): adding to final database dump
+0031.603 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wffilechanges.table.tmpr1.gz (71/58/fopen): adding to final database dump
+0031.603 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wffilechanges.table.gz (72/58/fopen): adding to final database dump
+0031.603 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wffilemods.table.tmpr1.gz (73/58/fopen): adding to final database dump
+0031.604 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wffilemods.table.gz (74/58/fopen): adding to final database dump
+0031.604 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfhits.table.tmpr0.gz (75/58/fopen): adding to final database dump
+0031.604 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfhits.table.gz (76/58/fopen): adding to final database dump
+0031.605 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfhoover.table.tmpr0.gz (77/58/fopen): adding to final database dump
+0031.605 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfhoover.table.gz (78/58/fopen): adding to final database dump
+0031.605 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfissues.table.tmpr0.gz (79/58/fopen): adding to final database dump
+0031.606 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfissues.table.gz (80/58/fopen): adding to final database dump
+0031.606 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfknownfilelist.table.tmpr0.gz (81/58/fopen): adding to final database dump
+0031.606 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfknownfilelist.table.gz (82/58/fopen): adding to final database dump
+0031.607 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflivetraffichuman.table.tmpr1.gz (83/58/fopen): adding to final database dump
+0031.607 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflivetraffichuman.table.gz (84/58/fopen): adding to final database dump
+0031.607 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflocs.table.tmpr1001.gz (85/58/fopen): adding to final database dump
+0031.608 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflocs.table.gz (86/58/fopen): adding to final database dump
+0031.608 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflogins.table.tmpr0.gz (87/58/fopen): adding to final database dump
+0031.609 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wflogins.table.gz (88/58/fopen): adding to final database dump
+0031.609 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (89/58/fopen): adding to final database dump
+0031.609 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfls_2fa_secrets.table.gz (90/58/fopen): adding to final database dump
+0031.610 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfls_settings.table.tmpr1001.gz (91/58/fopen): adding to final database dump
+0031.610 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfls_settings.table.gz (92/58/fopen): adding to final database dump
+0031.610 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfnotifications.table.tmpr1001.gz (93/58/fopen): adding to final database dump
+0031.611 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfnotifications.table.gz (94/58/fopen): adding to final database dump
+0031.611 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfpendingissues.table.tmpr0.gz (95/58/fopen): adding to final database dump
+0031.611 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfpendingissues.table.gz (96/58/fopen): adding to final database dump
+0031.612 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfreversecache.table.tmpr1001.gz (97/58/fopen): adding to final database dump
+0031.612 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfreversecache.table.gz (98/58/fopen): adding to final database dump
+0031.613 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfsnipcache.table.tmpr0.gz (99/58/fopen): adding to final database dump
+0031.614 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfsnipcache.table.gz (100/58/fopen): adding to final database dump
+0031.614 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfstatus.table.tmpr11.gz (101/58/fopen): adding to final database dump
+0031.615 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wfstatus.table.gz (102/58/fopen): adding to final database dump
+0031.615 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wftrafficrates.table.tmpr1.gz (103/58/fopen): adding to final database dump
+0031.615 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wftrafficrates.table.gz (104/58/fopen): adding to final database dump
+0031.616 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_login_redirect.table.tmpr0.gz (105/58/fopen): adding to final database dump
+0031.616 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_login_redirect.table.gz (106/58/fopen): adding to final database dump
+0031.616 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_options.table.tmpr16.gz (107/58/fopen): adding to final database dump
+0031.617 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_options.table.gz (108/58/fopen): adding to final database dump
+0031.617 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_post_type.table.tmpr0.gz (109/58/fopen): adding to final database dump
+0031.618 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_post_type.table.gz (110/58/fopen): adding to final database dump
+0031.618 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_taxonomy.table.tmpr0.gz (111/58/fopen): adding to final database dump
+0031.618 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wpfront_ure_taxonomy.table.gz (112/58/fopen): adding to final database dump
+0031.619 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wt_iew_action_history.table.tmpr18.gz (113/58/fopen): adding to final database dump
+0031.619 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wt_iew_action_history.table.gz (114/58/fopen): adding to final database dump
+0031.619 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wt_iew_mapping_template.table.tmpr0.gz (115/58/fopen): adding to final database dump
+0031.620 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db-table-wp_wt_iew_mapping_template.table.gz (116/58/fopen): adding to final database dump
+0031.623 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz: finished writing out complete database file (901.9 KB)
+0031.637 (0) Total database tables backed up: 58 (backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz, size: 923664, sha1: 675c00cdef905b01d60fc61b5d86d55a90a215ce, sha256: f7001b411d7730760078456a9b55ba82982039ba1313bee398860cb1c40ec71d)
+0031.643 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, wp-content/plugins/updraftplus/backup.php)
+0031.648 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-plugins.zip: plugins: This file has already been successfully uploaded
+0031.648 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-themes.zip: themes: This file has already been successfully uploaded
+0031.649 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-uploads.zip: uploads: This file has already been successfully uploaded
+0031.649 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-others.zip: others: This file has already been successfully uploaded
+0031.650 (0) backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz: db: This file has not yet been successfully uploaded: will queue
+0031.650 (0) Saving backup history. Total backup size: 291.6 MB
+0031.655 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0031.656 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.657 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3f6467717f83aba75b3bd81e40564b82)
+0031.907 (0) Google Drive: quota usage: used=8428.8 MB, total=105164800 MB, available=105156371.2 MB
+0031.908 (0) Google Drive: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz: Attempting to upload to Google Drive (into folder id: 1i61s2TbJTFfzp9I0Z-w8Wv3t69txbvkm)
+0033.582 (0) Googledrive chunked upload: 100 % uploaded
+0033.583 (0) Google Drive: OK: Archive backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz uploaded in 1.68 seconds
+0033.584 (0) Recording as successfully uploaded: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz
+0033.585 (0) Deleting local file: backup_2023-02-15-2107_Colegio_Alemn_26549bc7e472-db.gz: OK
+0033.586 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=30, retain_db=30
+0033.588 (0) Number of backup sets in history: 31; groups (db): 1
+0033.588 (0) Examining (for databases) backup set with group_id=0, nonce=26549bc7e472, datestamp=1676491678 (Feb 15 2023 20:07:58)
+0033.589 (0) This backup set is the backup set just made, so will not be deleted.
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=4c9eaf153625, datestamp=1676470870 (Feb 15 2023 14:21:10)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=21247d3de4bc, datestamp=1676470845 (Feb 15 2023 14:20:45)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=bedef21f991a, datestamp=1676408672 (Feb 14 2023 21:04:32)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=64720a9eda6c, datestamp=1676319904 (Feb 13 2023 20:25:04)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=f48c5773defa, datestamp=1676239027 (Feb 12 2023 21:57:07)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=920476694681, datestamp=1676150856 (Feb 11 2023 21:27:36)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=153ad1461221, datestamp=1676060235 (Feb 10 2023 20:17:15)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=6df3ff4ac90b, datestamp=1675973341 (Feb 09 2023 20:09:01)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=b771bbc27531, datestamp=1675886986 (Feb 08 2023 20:09:46)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=795f33d5d6a5, datestamp=1675803923 (Feb 07 2023 21:05:23)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=efe758a2aa4f, datestamp=1675715945 (Feb 06 2023 20:39:05)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=14e4227afc7d, datestamp=1675628636 (Feb 05 2023 20:23:56)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=3ee202b1486a, datestamp=1675545252 (Feb 04 2023 21:14:12)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9f4e73448, datestamp=1675456149 (Feb 03 2023 20:29:09)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.589 (0) Examining (for databases) backup set with group_id=0, nonce=05247da87d8a, datestamp=1675372976 (Feb 02 2023 21:22:56)
+0033.589 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=8e28e153aa77, datestamp=1675283416 (Feb 01 2023 20:30:16)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=c9031d7fe43c, datestamp=1675195816 (Jan 31 2023 20:10:16)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=91e41a02dd50, datestamp=1675110996 (Jan 30 2023 20:36:36)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=1f166ec9e823, datestamp=1675026110 (Jan 29 2023 21:01:50)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=cd9482732019, datestamp=1674974667 (Jan 29 2023 06:44:27)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=26fb17d22006, datestamp=1674850594 (Jan 27 2023 20:16:34)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=767c5c0610b6, datestamp=1674764747 (Jan 26 2023 20:25:47)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=c00373f5a2ef, datestamp=1674678703 (Jan 25 2023 20:31:43)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=54ffb2e4aaeb, datestamp=1674591138 (Jan 24 2023 20:12:18)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=be94758a5891, datestamp=1674505402 (Jan 23 2023 20:23:22)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=7fd5615777c7, datestamp=1674418513 (Jan 22 2023 20:15:13)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=669a72b86d62, datestamp=1674331774 (Jan 21 2023 20:09:34)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=fd551b940f58, datestamp=1674246587 (Jan 20 2023 20:29:47)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=f15f5d537dfa, datestamp=1674159796 (Jan 19 2023 20:23:16)
+0033.590 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.590 (0) Examining (for databases) backup set with group_id=0, nonce=6f8f801b0b78, datestamp=1674072693 (Jan 18 2023 20:11:33)
+0033.590 (0) 1674072693: db: this set includes a database (backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-db.gz); db count is now 30
+0033.590 (0) 1674072693: db: over retain limit (30); will delete this database
+0033.590 (0) Delete file: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-db.gz, service=googledrive
+0035.815 (0) Google Drive: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-db.gz: Deletion successful
+0035.817 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0035.817 (0) Number of backup sets in history: 31; groups (files): 1
+0035.818 (0) Examining (for files) backup set with nonce=26549bc7e472, datestamp=1676491678 (Feb 15 2023 20:07:58)
+0035.818 (0) This backup set is the backup set just made, so will not be deleted.
+0035.818 (0) This backup set is the backup set just made, so will not be deleted.
+0035.818 (0) This backup set is the backup set just made, so will not be deleted.
+0035.818 (0) This backup set is the backup set just made, so will not be deleted.
+0035.818 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=4c9eaf153625, datestamp=1676470870 (Feb 15 2023 14:21:10)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=21247d3de4bc, datestamp=1676470845 (Feb 15 2023 14:20:45)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=bedef21f991a, datestamp=1676408672 (Feb 14 2023 21:04:32)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=64720a9eda6c, datestamp=1676319904 (Feb 13 2023 20:25:04)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=f48c5773defa, datestamp=1676239027 (Feb 12 2023 21:57:07)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=920476694681, datestamp=1676150856 (Feb 11 2023 21:27:36)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=153ad1461221, datestamp=1676060235 (Feb 10 2023 20:17:15)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=6df3ff4ac90b, datestamp=1675973341 (Feb 09 2023 20:09:01)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=b771bbc27531, datestamp=1675886986 (Feb 08 2023 20:09:46)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=795f33d5d6a5, datestamp=1675803923 (Feb 07 2023 21:05:23)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=efe758a2aa4f, datestamp=1675715945 (Feb 06 2023 20:39:05)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=14e4227afc7d, datestamp=1675628636 (Feb 05 2023 20:23:56)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=3ee202b1486a, datestamp=1675545252 (Feb 04 2023 21:14:12)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=c4e9f4e73448, datestamp=1675456149 (Feb 03 2023 20:29:09)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=05247da87d8a, datestamp=1675372976 (Feb 02 2023 21:22:56)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=8e28e153aa77, datestamp=1675283416 (Feb 01 2023 20:30:16)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.819 (0) Examining (for files) backup set with nonce=c9031d7fe43c, datestamp=1675195816 (Jan 31 2023 20:10:16)
+0035.819 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=91e41a02dd50, datestamp=1675110996 (Jan 30 2023 20:36:36)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=1f166ec9e823, datestamp=1675026110 (Jan 29 2023 21:01:50)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=cd9482732019, datestamp=1674974667 (Jan 29 2023 06:44:27)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=26fb17d22006, datestamp=1674850594 (Jan 27 2023 20:16:34)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=767c5c0610b6, datestamp=1674764747 (Jan 26 2023 20:25:47)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=c00373f5a2ef, datestamp=1674678703 (Jan 25 2023 20:31:43)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=54ffb2e4aaeb, datestamp=1674591138 (Jan 24 2023 20:12:18)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=be94758a5891, datestamp=1674505402 (Jan 23 2023 20:23:22)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=7fd5615777c7, datestamp=1674418513 (Jan 22 2023 20:15:13)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=669a72b86d62, datestamp=1674331774 (Jan 21 2023 20:09:34)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=fd551b940f58, datestamp=1674246587 (Jan 20 2023 20:29:47)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=f15f5d537dfa, datestamp=1674159796 (Jan 19 2023 20:23:16)
+0035.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.820 (0) Examining (for files) backup set with nonce=6f8f801b0b78, datestamp=1674072693 (Jan 18 2023 20:11:33)
+0035.820 (0) plugins: over retain limit (30); will delete this file entity
+0035.820 (0) themes: over retain limit (30); will delete this file entity
+0035.820 (0) uploads: over retain limit (30); will delete this file entity
+0035.820 (0) others: over retain limit (30); will delete this file entity
+0035.820 (0) Delete file: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-plugins.zip, service=googledrive
+0035.821 (0) Delete file: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-themes.zip, service=googledrive
+0035.821 (0) Delete file: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-uploads.zip, service=googledrive
+0035.822 (0) Delete file: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-others.zip, service=googledrive
+0037.482 (0) Google Drive: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-others.zip: Deletion successful
+0038.006 (0) Google Drive: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-uploads.zip: Deletion successful
+0038.825 (0) Google Drive: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-themes.zip: Deletion successful
+0039.382 (0) Google Drive: backup_2023-01-18-2111_Colegio_Alemn_6f8f801b0b78-plugins.zip: Deletion successful
+0039.384 (0) This backup set is now empty; will remove from history
+0039.385 (0) Deleting log file (log.6f8f801b0b78.txt)
+0039.385 (0) Retain: saving new backup history (sets now: 30) and finishing retain operation
+0039.390 (0) Resume backup (26549bc7e472, 0): finish run
+0039.392 (0) Decremented the semaphore (fd) by 1
+0039.392 (0) Semaphore (fd) unlocked
+0039.393 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0039.395 (0) The backup apparently succeeded and is now complete
+0039.395 (0) No email will/can be sent - the user has not configured an email address.
+0039.396 (0) Aparentemente, la copia de seguridad ha sido correcta y ahora está completa

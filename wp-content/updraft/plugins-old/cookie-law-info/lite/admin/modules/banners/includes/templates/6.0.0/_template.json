@@ -1,0 +1,38 @@
+[
+    {
+        "slug": "banner-6.0.0",
+        "version": "6.0.0",
+        "type": "banner",
+        "allowed_laws": "[\"GDPR\",\"CCPA\"]",
+        "positions": "{\"top\":{\"box-shadow\":\"inset 0px -2px 2px #f4f4f4\",\"top\":\"0\",\"bottom\":\"auto\",\"left\":\"auto\",\"right\":\"auto\"},\"bottom\":{\"box-shadow\":\"inset 0px 2px 2px #f4f4f4\",\"top\":\"auto\",\"bottom\":\"0\",\"left\":\"auto\",\"right\":\"auto\"}}",
+        "html": "",
+        "css": ""
+    },
+    {
+        "slug": "box-6.0.0",
+        "version": "6.0.0",
+        "type": "box",
+        "allowed_laws": "[\"GDPR\",\"CCPA\"]",
+        "positions": "{\"bottom-left\":{\"top\":\"auto\",\"bottom\":\"90px\",\"left\":\"90px\",\"right\":\"auto\"},\"bottom-right\":{\"top\":\"auto\",\"bottom\":\"90px\",\"left\":\"auto\",\"right\":\"90px\"},\"top-left\":{\"top\":\"90px\",\"bottom\":\"auto\",\"left\":\"90px\",\"right\":\"auto\"},\"top-right\":{\"top\":\"90px\",\"bottom\":\"auto\",\"left\":\"auto\",\"right\":\"90px\"}}",
+        "html": "",
+        "css": ""
+    },
+    {
+        "slug": "classic-6.0.0",
+        "version": "6.0.0",
+        "type": "classic",
+        "allowed_laws": "[\"GDPR\"]",
+        "positions": "{\"top\":{\"box-shadow\":\"inset 0px -2px 2px #f4f4f4\",\"top\":\"0\",\"bottom\":\"auto\",\"left\":\"auto\",\"right\":\"auto\"},\"bottom\":{\"box-shadow\":\"inset 0px 2px 2px #f4f4f4\",\"top\":\"auto\",\"bottom\":\"0\",\"left\":\"auto\",\"right\":\"auto\"}}",
+        "html": "",
+        "css": ""
+    },
+    {
+        "slug": "popup-6.0.0",
+        "version": "6.0.0",
+        "type": "popup",
+        "allowed_laws": "[\"GDPR\",\"CCPA\"]",
+        "positions": "{\"top\":{\"box-shadow\":\"inset 0px -2px 2px #f4f4f4\",\"top\":\"0\",\"bottom\":\"auto\",\"left\":\"auto\",\"right\":\"auto\"},\"bottom\":{\"box-shadow\":\"inset 0px 2px 2px #f4f4f4\",\"top\":\"auto\",\"bottom\":\"0\",\"left\":\"auto\",\"right\":\"auto\"}}",
+        "html": "",
+        "css": ""
+    }
+]

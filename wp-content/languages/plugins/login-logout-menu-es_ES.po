@@ -1,0 +1,89 @@
+# Translation of Plugins - Login Logout Menu - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Login Logout Menu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-16 15:30:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Login Logout Menu - Stable (latest release)\n"
+
+#: classes/shortcodes.php:242
+msgid "Edit Profile"
+msgstr "Editar el perfil"
+
+#: classes/shortcodes.php:188
+msgid "Reset Password"
+msgstr "Restablecer la contraseña"
+
+#: classes/shortcodes.php:61 classes/shortcodes.php:128
+msgid "Log out"
+msgstr "Salir"
+
+#: classes/shortcodes.php:60 classes/shortcodes.php:96
+msgid "Log in"
+msgstr "Acceder"
+
+#: login-logout-menu.php:145
+msgid "%1$s Settings %2$s"
+msgstr "%1$s Ajustes %2$s"
+
+#: login-logout-menu.php:166
+msgid "User"
+msgstr "Usuario"
+
+#. Author of the plugin
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Description of the plugin
+msgid "Login Logout Menu is a handy plugin which allows you to add login, logout, register and profile menu items in your selected menu."
+msgstr "Login Logout Menu es un plugin útil que te permite añadir los elementos de menú «Acceder», «Salir», «Registro» y «Perfil» en el menú que selecciones."
+
+#: login-logout-menu.php:214
+msgid "Add to Menu"
+msgstr "Añadir al menú"
+
+#: login-logout-menu.php:208
+msgid "To get plugin support contact us on <a href=\"%1$s\" target=\"_blank\">plugin support forum</a> or <a href=\"%2$s\" target=\"_blank\">contact us page</a>."
+msgstr "Para obtener soporte para el plugin, contacta con nosotros en el <a href=\"%1$s\" target=\"_blank\">foro de soporte del plugin</a> o en la <a href=\"%2$s\" target=\"_blank\">página de contacto</a>."
+
+#: login-logout-menu.php:207
+msgid "to redirect the user on the current visited page after login/logout/register, example :"
+msgstr "para redirigir al usuario a la página actual visitada después de acceder/salir/registrarse, por ejemplo:"
+
+#: login-logout-menu.php:207
+msgid "You can also use"
+msgstr "También puedes usar"
+
+#: login-logout-menu.php:206
+msgid "To redirect user after login/logout/register just add a relative link after the link's keyword, example :"
+msgstr "Para redirigir al usuario después de acceder/salir/registrarse, simplemente añade un enlace relativo después de la palabra clave del enlace, por ejemplo:"
+
+#: login-logout-menu.php:203
+msgid "Help"
+msgstr "Ayuda"
+
+#: login-logout-menu.php:165
+msgid "Profile"
+msgstr "Perfil"
+
+#: classes/shortcodes.php:158 login-logout-menu.php:164
+msgid "Register"
+msgstr "Registro"
+
+#: login-logout-menu.php:162 login-logout-menu.php:163
+msgid "Log Out"
+msgstr "Salir"
+
+#: login-logout-menu.php:161 login-logout-menu.php:163
+msgid "Log In"
+msgstr "Acceder"
+
+#. Plugin Name of the plugin
+#: login-logout-menu.php:127
+msgid "Login Logout Menu"
+msgstr "Login Logout Menu"

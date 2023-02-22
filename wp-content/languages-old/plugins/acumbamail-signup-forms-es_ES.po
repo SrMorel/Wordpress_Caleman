@@ -1,0 +1,182 @@
+# Translation of Plugins - Acumbamail - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Acumbamail - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-11 09:24:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Acumbamail - Development (trunk)\n"
+
+#: acumbamail.php:43
+msgid "Show your Acumbamail signup forms easily in your Wordpress pages through a widget."
+msgstr "Muestra tus formularios de registro de Acumbamail fácilmente en tus páginas de WordPress a través de un widget."
+
+#: inc/frontend.php:164
+msgid "Set up the Acumbamail plugin in the interface to display the widget"
+msgstr "Configura el plugin Acumbamail en la interfaz para mostrar el widget"
+
+#: inc/frontend.php:68
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: inc/frontend.php:67
+msgid "Subscribe to our newsletter"
+msgstr "Suscribite a nuestro boletín"
+
+#: inc/admin_page.php:55
+msgid "We will be happy to assist you whenever you need it"
+msgstr "Estaremos encantados de atenderte siempre que lo necesites"
+
+#: inc/admin_page.php:54
+msgid "We count with years of experience to guarantee a high quality service"
+msgstr "Contamos con años de experiencia para garantizar un servicio de alta calidad"
+
+#: inc/admin_page.php:53
+msgid "Our team is composed of professionals who come from the online marketing, IT and design sectors"
+msgstr "Nuestro equipo está compuesto por profesionales procedentes de los sectores del marketing online, la informática y el diseño"
+
+#: inc/admin_page.php:50
+msgid "About Acumbamail"
+msgstr "Acerca de Acumbamail"
+
+#: inc/admin_page.php:45
+msgid "If you have enabled the Woocommerce plugin, you can also set up a list to which your customers will be subscribed after purchasing a product"
+msgstr "Si has activado el plugin WooCommerce, también puedes configurar una lista a la que se suscribirán tus clientes después de comprar un producto"
+
+#: inc/admin_page.php:41
+msgid "Remember that only the classic forms will be displayed where selected. The rest of form types already have their default position within the page"
+msgstr "Recuerda que sólo se mostrarán los formularios clásicos cuando se seleccionen. El resto de tipos de formularios ya tienen su posición por defecto dentro de la página"
+
+#: inc/admin_page.php:40
+msgid "In the Appearance/Widgets section, select the Acumbamail widget and place it where you want it to be displayed"
+msgstr "En la sección «Apariencia/Widgets», selecciona el widget Acumbamail y colócalo donde quieras que se muestre"
+
+#: inc/admin_page.php:36
+msgid "You can create new forms in"
+msgstr "Puede crear nuevos formularios en"
+
+#: inc/admin_page.php:35
+msgid "Select the form that will be displayed on your Wordpress pages"
+msgstr "Selecciona el formulario que se mostrará en tus páginas de WordPress"
+
+#: inc/admin_page.php:32
+msgid "The forms associated with the list will be displayed"
+msgstr "Se mostrarán los formularios asociados a la lista"
+
+#: inc/admin_page.php:31 inc/admin_page.php:37
+msgid "https://acumbamail.com/en/"
+msgstr "https://acumbamail.com/en/"
+
+#: inc/admin_page.php:30
+msgid "Select a list previously created in"
+msgstr "Selecciona una lista creada previamente en"
+
+#: inc/admin_page.php:26
+msgid "here"
+msgstr "aquí"
+
+#: inc/admin_page.php:25
+msgid "https://acumbamail.com/en/apidoc/getAuthToken/"
+msgstr "https://acumbamail.com/en/apidoc/getAuthToken/"
+
+#: inc/admin_page.php:24
+msgid "You can find it"
+msgstr "Puedes encontrarlo"
+
+#: inc/admin_page.php:23
+msgid "Enter the auth token corresponding to your account"
+msgstr "Introduce el token de autorización correspondiente a tu cuenta"
+
+#: inc/admin_page.php:19
+msgid "How does the plugin work?"
+msgstr "¿Cómo funciona el plugin?"
+
+#: inc/admin_page.php:12
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: inc/admin_page.php:10
+msgid "Delete forms"
+msgstr "Borrar formularios"
+
+#: inc/admin_page.php:5
+msgid "Acumbamail Plugin"
+msgstr "Plugin Acumbamail"
+
+#: acumbamail_widget.php:10
+msgid "Widget for integrating Acumbamail forms into your pages"
+msgstr "Widget para integrar los formularios de Acumbamail en tus páginas"
+
+#: acumbamail.php:234
+msgid "Would you like to subscribe to our mailing list?"
+msgstr "¿Quieres suscribirte a nuestra lista de correo?"
+
+#: acumbamail.php:224
+msgid "Select a form"
+msgstr "Selecciona un formulario"
+
+#: acumbamail.php:212
+msgid "Select a list"
+msgstr "Selecciona una lista"
+
+#: acumbamail.php:208
+msgid "Check that you have created lists and that your hosting allows incoming traffic from Acumbamail"
+msgstr "Comprueba que has creado listas y que tu alojamiento permite el tráfico entrante desde Acumbamail"
+
+#: acumbamail.php:208
+msgid "Your lists could not be retrieved"
+msgstr "Tus listas no se han podido recuperar"
+
+#: acumbamail.php:137
+msgid "Auth Token"
+msgstr "Token de autorización"
+
+#: acumbamail.php:127
+msgid "Checkbox text"
+msgstr "Texto de la casilla de verificación"
+
+#: acumbamail.php:109
+msgid "Configure the Acumbamail list to which your customers will be automatically subscribed"
+msgstr "Configura la lista de Acumbamail a la que se suscribirán automáticamente tus clientes"
+
+#: acumbamail.php:98
+msgid "Form"
+msgstr "Formulario"
+
+#: acumbamail.php:87 acumbamail.php:120
+msgid "List"
+msgstr "Lista"
+
+#: acumbamail.php:76
+msgid "Integrate your Acumbamail forms into your Wordpress pages"
+msgstr "Integra tus formularios de Acumbamail en tus páginas de WordPress"
+
+#: acumbamail.php:55
+msgid "Set up the form to be displayed on your Wordpress pages"
+msgstr "Configura el formulario para que se muestre en tus páginas de WordPress"
+
+#: acumbamail.php:45
+msgid "Manage your subscriptions with Acumbamail"
+msgstr "Gestiona tus suscripciones con Acumbamail"
+
+#. Author URI of the plugin
+msgid "https://acumbamail.com"
+msgstr "https://acumbamail.com"
+
+#. Description of the plugin
+#: acumbamail.php:42
+msgid "Integrate your Acumbamail forms in your Wordpress pages"
+msgstr "Integra tus formularios de Acumbamail en tus páginas de WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://acumbamail.com/en/integrations/wordpress/"
+msgstr "https://acumbamail.com/en/integrations/wordpress/"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "Acumbamail"
+msgstr "Acumbamail"
